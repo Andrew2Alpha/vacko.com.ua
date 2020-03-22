@@ -1,0 +1,1394 @@
+*{
+	padding:0;
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	box-sizing: border-box;
+	
+}
+body,html{
+	overflow-x: hidden;
+	scroll-behavior: smooth ;
+	 
+         
+}
+
+a{
+	text-decoration: none;
+}
+
+/*burger*/
+.menu-burger-icon {
+/*  height: 100vh;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  position: relative;
+}
+.menu-btn span,
+.menu-btn span::before,
+.menu-btn span::after {
+  position: absolute;
+  top: 50%; margin-top: -1px;
+  left: 50%; margin-left: -10px;
+  width: 20px;
+  height: 2px;
+  background-color: #222;
+}
+.menu-btn span::before,
+.menu-btn span::after {
+  content: '';
+  display: block;
+  transition: 0.2s;
+}
+.menu-btn span::before {
+  transform: translateY(-5px);
+}
+.menu-btn span::after {
+  transform: translateY(5px);
+}
+
+.menu-btn_active span:before {
+  transform: rotate(-35deg);
+  width: 10px;
+  transform-origin: left bottom;
+}
+.menu-btn_active span:after {
+  transform: rotate(35deg);
+  width: 10px;
+  transform-origin: left top;
+}
+
+.menu-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-nav {
+  background-color: #fff;
+  height: 50px;
+  
+}
+.menu-nav__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+.menu-nav__link {
+  transition: 0.5s;
+  transform-origin: right center;
+  transform: translateX(50%);
+  opacity: 0;
+}
+.menu-nav__link_active {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+
+.adaptiv{
+	padding: 50px;
+	margin-top: 220px;
+}
+.nav__item a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+}
+.nav__item a:hover{
+	color:#777;
+	transition: .2s linear;
+    
+}
+
+.header {
+    overflow: hidden;
+	position: relative;
+	height: 100vh;
+	background-image: url('821471.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.header-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+		
+}
+
+.nav-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+    height: 70px;
+	padding: 40px 110px;
+	flex-direction: row;	
+	transition:  .2s;
+    align-items: center;
+   
+    
+}
+.nav-container a{
+    margin-top: 10px;
+}
+.wrapper{
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+	position: absolute;
+	transition: 9s;
+	
+}
+
+.intro{
+	margin-top: 25px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+ .intro-text{
+	font-size: 90px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400px;
+	color: #fff;
+	margin-top: -440px;
+	 margin-right: -80px;
+}
+
+
+/* Условие для экранов с шириной от 0 до 1200px */
+
+.logo img{
+    margin: -10px;
+	width:180px;
+cursor: pointer;	
+	color: #000;
+}
+
+	
+
+.shop{
+	background: #ffd600;
+	font-size: 18px;
+	border-radius: 3px;
+    margin-top: -10px;
+	justify-content: space-between;
+}
+.shop:hover{
+   color:#000;
+}
+
+/* ------------ Desktop navigation ----------- */
+
+.nav{
+	list-style-type: none;
+	white-space: normal;
+	padding: 0;
+	display: flex;
+    margin:20px;
+}
+
+    
+
+nav {
+  margin-top:center;
+  width: 1000x;
+    height:0px;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.icon{
+    color:wheat;
+    text-align:left;
+   display:none;
+
+       
+}
+.logotip{
+    display:block;
+    text-align:left;
+    padding: 10px 14px;
+    margin-left: 30px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+  
+
+.topnav a{
+      margin-top: 15px 15px 15px;
+    color:black;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    padding: 0px;
+  
+}
+
+.topnav {
+  background-color:black;
+  height: 60px;
+  font-size: 14;
+  margin-top: 0px;
+ padding: 0px;
+  border-bottom: 2px solid maroon;
+  border-bottom-color: black;    
+}
+
+nav{
+    margin:0px 0px 0px 0px;
+    
+}  
+.menu-nav{
+    margin-top: 23px;
+}
+
+.menu-nav__link{
+    text-decoration: none;
+    color: #000;
+    padding:20px; 
+   
+   
+}
+.menu-nav__link:hover{
+    color: #fff;
+}
+
+.facebook {
+    display:block;
+    margin-top:0px; 
+    margin-right: 0;
+    margin-left: 1580px;
+}
+
+
+   
+.kontakti{
+    color: #999;
+}
+
+
+/*services*/
+
+.services-section{
+    background-size: cover;
+    padding: 0px 0;
+}
+.inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+}
+.section-title{
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.border{
+    width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+}
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.service-box{
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+}
+
+.service-icon{
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    height: 70px;
+    border: 3px solid #11FC77;
+    color: #82ccdd;
+    transform: rotate(-45deg);
+    margin-bottom: 30px;
+    margin-top: 70px;
+    transition: 0.3 linear;
+}
+
+.service-icon i{
+    line-height: 70px;
+    transform: rotate(45deg);
+    font-size: 26px;
+}
+.service-box:hover .service-icon{
+    background: #82ccdd;
+    color: #ddd;
+    transition: 0.5s;
+}
+.service-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.service-desc{
+    font-size: 14px;
+}
+.text-about{
+     text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+/*team*/
+.team{
+	 text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+	margin-top: 70px;
+    position: relative;
+}
+.card-body{
+	padding: 0;
+}
+.team-border{
+	border: 1px solid #dee2e6 !important;
+	 width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+}
+
+h3{
+    font-size: 24px;
+    color:#333;
+    font-weight: bold;
+}
+
+#team img{
+    margin-top: -50px;
+}
+#team i{
+    font-size: 26px;
+    color: #555;
+}
+#team p{
+    font-weight: 500;
+}
+#team .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px #11FC77;
+    transition: all 0.3 ease-in;
+    -webkit-transition: all 0.3 ease-in;
+    -moz-transition: all 0.3 ease-in;
+}
+#team .card:hover{
+    background: #82ccdd;
+    transition: 1s;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px #9E9E9E;
+}
+
+#team .card:hover h3, #team .card:hover i{
+    color: #fff;
+}
+/*partners*/
+.partners-title{
+	 text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    
+}
+..partners-title h4{
+	margin-top: 200px;
+}
+.section-partners{
+	margin-top: 100px;
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+	font-size: 30px;}
+
+
+.partners img{
+	width: 0px;
+	margin-top: 0px;
+	padding: 50px;
+	right: 0;
+	left: 0;
+	top: 0;
+	text-align: center;
+}
+
+
+
+   
+.owl-carousel img{
+	width: 100px;
+}
+
+.section-partners h1{
+	margin-top: 200px;
+}
+
+.brand-slider {
+	margin-top: 300px;
+}
+.brand-slider{
+    width: 90%;
+	height: 50px;
+   margin: 600px 0 0 90px;
+    text-align: center;
+}
+
+.partners-slider img{
+	margin-top: 350px;
+	
+}
+.brand-slider h4{ 
+    padding: 0 8px;
+    font-size: 18px;
+    display: inline-block;
+    color: #000;
+    margin-bottom: 30px;
+}
+.brand-slider p{
+    color: #424146;
+}
+.owl-img{
+    width: 50px;
+}
+.quantum img{
+		margin-top: 360px;
+	}
+	.agrolyst img{
+		margin-top: 330px;
+	}
+	.vilagro img{
+		margin-top: 350px;
+	}
+
+ 
+/*aboutUs*/
+.aboutUs{
+    width: 100%;
+    height: 950px;
+	margin-top: 670px;
+}
+
+.aboutUs-section{
+	
+	
+	margin-top: 270px;
+}
+.aboutUs-title{
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0px 0 0 0;
+}
+.aboutUs-info{
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+/* FOOTER */
+.body-content{
+    width: 100%;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 40px;
+}
+.footer{
+    width: 100%;
+    background: #303036;
+    display: block;
+	margin-top: 600px;
+}
+
+.inner-footer{
+    width: 95%;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.footer-items{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.footer-h5{
+    padding: 10px 0 ;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    
+}
+
+
+
+.footer-items p{
+    color: #777;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+
+
+.footer-border{
+    height: 2px;
+    width: 40px;
+    background: #ff9800;
+}
+.footer-ul{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.footer-ul a{
+    text-decoration: none;
+    color:#fff;
+    outline:none;
+    transition: 0.3s;
+}
+.footer-ul a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-ul li{
+    margin: 10px 0;
+    height: 25px;
+}
+
+
+.social-media a{
+    padding: 15px;
+       color: #777;
+}
+.footer-bottom{
+    color:#000;
+}
+.social-media {
+    width: 100%;
+    text-align: center;
+        display: flex;
+}
+
+.social-media a:hover{
+    color:#fff;
+}
+.social-media .footer-i{
+    height: 15px;
+    width: 15px;
+    margin: 10px 5px 10px -10px;
+    padding: 10px 10px 10px 10px;
+    color:#fff;
+    
+}
+/* Условие для экранов с шириной от 0 до 1200px */
+
+
+.nav__item {
+	margin-right: 30px;
+}
+
+.nav__item:last-child {
+	margin-right: 10px;
+}
+
+.nav__link {
+	font-size: 18px;
+	font-weight: 100;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+	
+
+
+.nav__link:hover {
+	color: #777;
+	transition: .3s;
+}
+.mobile_shop__link{
+	display: block;
+	position: absolute;
+}
+
+/* --------------- Mobile navigation button ----------- */
+
+.menu-icon {
+    z-index: 19;
+    position: relative;
+    display: none;
+	width: 30px;
+    height: 30px;
+    margin-left: 130px;
+    margin-top: 5px;
+
+    cursor: pointer;
+	
+}
+
+
+.kontakti{
+	width: 100%;
+	height: 870px;
+
+}
+.heading{
+	color:#777;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Sulphur Point', sans-serif;
+	font-weight: 500;
+}
+.kontakti br{
+	font-size: 19px;
+}
+
+/* Условие для экранов с шириной от 0 до 1200px */
+
+
+.menu-icon-line {
+	position: relative;
+	margin-top: 10px;
+	width: 30px;
+	height: 5px;
+	
+	background-color: #fff;
+    
+}
+
+	
+
+
+.menu-icon-line::before {
+	position: absolute;
+	left: 0;
+	top: -10px;
+	content: '';
+	width: 30px;
+	height: 5px;
+	background-color: #fff;
+	transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.menu-icon-line::after {
+	position: absolute;
+	left: 0;
+	top: 10px;
+	content: '';
+	width: 30px;
+	height: 5px;
+    
+	background-color: #fff;
+	transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+}
+
+.menu-icon.menu-icon-active .menu-icon-line {
+	background-color: transparent;
+}
+
+.menu-icon.menu-icon-active .menu-icon-line::before {
+	transform: rotate(45deg);
+	top: 0;
+	transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+}
+
+.menu-icon.menu-icon-active .menu-icon-line::after {
+	transform: rotate(-45deg);
+	top: 0;
+	transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
+}
+
+
+/* ----------------- Мобильная навигация ----------------- */
+
+.mobile-nav {
+   z-index: 9;
+    display: block;
+    position: fixed;
+    right: -412px;
+    top: 0;
+    height: 100%;
+    
+    padding: 50px;
+    background-color: rgba(0,0,0,.5);
+    transition: transform 0.4s ease-in;
+}
+.mobile-nav a{
+	color: #fff;
+	
+	margin-left: 50px;
+}
+
+.intro .intro-text{
+	position: relative;
+	font-size: 95px;
+	margin-right: 10px; 
+	text-outline:95px;
+	
+}
+
+.mobile-nav--active {
+    transform: translateX(-100%);
+}
+
+.mobile-nav__title {
+    font-size: 28px;
+    
+    margin-bottom: 30px;
+    color: #f6d142;
+}
+
+.mobile-nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+	text-align: center;
+}
+
+.mobile-nav__item {
+    margin-bottom: 30px;
+    
+}
+
+.mobile-nav__link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 22px;
+	padding: 5px;
+    border-radius: 3px linear;
+    
+	
+}
+.shop_mobile{
+	
+	font-size: 18px;
+	border-radius: 3px;
+    margin-top: -10px;
+	justify-content: space-between;
+}
+.shop_mobile a{
+	color: #000;
+}
+
+.mobile-nav__link:hover {
+    color: #000;
+	text-decoration: none;
+}
+
+
+.intro{
+	margin-top: 0;
+	display: block;
+	max-width:100% ;
+}
+
+.header{
+	background-position: bottom 50px right: 570px;
+}
+
+.intro .intro-text{
+	position: relative;
+	font-size: 95px;
+	margin-right: 10px; 
+	text-outline:95px;
+	
+}
+
+
+.mobile-nav--active {
+    transform: translateX(-100%);
+}
+
+.mobile-nav__title {
+    font-size: 28px;
+    
+    margin-bottom: 30px;
+    color: #f6d142;
+}
+
+.mobile-nav__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+	margin: 70px 0 0 -30px;
+}
+
+.mobile-nav__item {
+    margin-bottom: 10px;
+	padding: 10px;
+}
+
+.mobile-nav__link {
+    color: #000;
+    text-decoration: none;
+    font-weight: 200;
+    border-radius: 3px;
+    border: 10px;
+	margin-top: 10px;
+    font-size: 22px;
+	
+	
+}
+
+.mobile-nav__link:hover {
+    color:#777;
+    transition: .2s;
+}
+
+.intro{
+	margin-top: 10px;
+	display: block;
+	max-width:100% ;
+	
+}
+
+.header{
+	background-position: bottom 50px right: 570px;
+}
+
+.intro .intro-text{
+	position: relative;
+	font-size: 95px;
+	margin-right: 10px; 
+	opacity: 7s;
+	text-outline:45px;
+	
+}
+
+.showScroll {
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+}
+.container{
+    width: 100%;
+    height: 650px;
+	margin-top: 470px;
+}
+.services{
+    width: 100%;
+    height: 750px;
+}
+
+.aboutUs{
+    text-align: center;
+    
+    width: 100%;
+    height: 650px;
+}
+.about{
+	 width: 160px;
+    height: 2px;
+    background: #82ccdd;
+    margin: 40px auto;
+}
+.footer-bottom{
+    margin: 60px 0 0 70px ; 
+}
+.foter-bootem-info{
+    padding: 5px;
+    color: #777;
+    
+}
+
+.TOV{
+    margin-left: 5px;
+    display: flex;
+}
+.footer-nav__item{
+    padding-left: 80px;
+}
+.footer-nav__item a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+  
+}
+.footer-nav__item a:hover{
+	color:#777;
+    transition: .2s linear;}
+
+.footer-nav-container{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+    height: 70px;
+	padding: 30px 310px;
+	flex-direction: row;	
+	transition:  .2s;
+    align-items: center;
+   
+    
+}
+.footer-nav-container a{
+    margin-top: 10px;
+    padding: 1px;
+}
+.footer-nav{
+    list-style-type: none;
+	white-space: normal;
+	padding: -10px;
+	display: flex;
+    margin:10px;
+}
+.footer-nav__item a{
+    padding: -10px;
+}
+
+
+@media screen and (max-width: 1200px) {
+	#team .card-body{
+		padding: 0;
+	}
+	
+    .nav__item a {
+       display: none;
+    }
+	  .service-box{
+        max-width: 45%;
+    }
+    .menu-icon {
+        display: flex;
+        justify-content: center;
+		
+    }
+    .shop {
+        display: none;
+    }
+    .footer-items{
+        width: 40%;
+    }
+    .aboutUs{
+        width: 100%;
+        height: 50%;
+    }
+	.brand-slider img{
+		margin-top: 290px;
+		width: 100%;
+	}
+	.mobile-nav{
+		 width: 100%;
+        right: -100%;
+		margin-left:1%;
+		 
+	}
+
+	
+}
+
+@media screen and (max-width:1029px){
+	.mobile-nav{
+		 width: 100%;
+        right: -100%;
+		margin-left:1%;
+	}
+	. partners-slider img{
+		margin-top: 1290px;
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 1024px){
+ .nav-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+	 .mobile-nav {
+        width: 100%;
+        right: -100%;
+		margin-left:1%;
+		 
+    }
+	
+	.partners-img{
+		margin-top: 10%;
+		width: 50%;
+	}
+	.partners-title h1{
+		margin-top: 500px;
+	}
+	.brand-slider {
+		width: 90%;
+	}
+	.brand-slider img{
+		padding: 30px;
+		margin: 0 0 0 -30px;
+	}
+    
+	.adama img{
+		margin-top: 290px;
+	}
+	.quantum img{
+		margin-top: 300px;
+	}
+	.agrolyst img{
+		margin-top: 280px;
+	}
+	.vilagro img{
+		margin-top: 290px;
+	}
+	.valagro img{
+		margin-top: 300px;
+	}
+
+	.aboutUs{
+		margin: 1090px 20px 90px 45px;
+		font-size: 90px;
+		width: 100%;
+	}
+	.aboutUs-section{
+		margin: 290px 20px 190px -0px;
+		width: 100%;
+	}
+	.footer-nav-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .footer-items{
+        width: 60%;
+    }
+    .footer-bottom{
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:991px){
+	#team .card, .row{
+		margin: 25px;
+		 
+	}
+}
+@media screen and (max-width: 770px) {
+	.service-box{
+		max-width: 50%;
+	}
+    .nav-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+	
+	 .mobile-nav {
+        width: 100%;
+        right: -100%;
+		margin-left:1%;
+    }
+	.partners-img{
+		margin-top: 10%;
+		width: 40%;
+	}
+	.partners-title h1{
+		margin-top: 500px;
+	}
+	.brand-slider {
+		width: 88%;
+		margin-top: 700px;
+	}
+	.brand-slider img{
+		padding: 30px;
+		margin: 0 0 0 -20px;
+	}
+    
+	.adama img{
+		margin-top: 290px;
+	}
+	.quantum img{
+		margin-top: 300px;
+	}
+	.agrolyst img{
+		margin-top: 280px;
+	}
+	.vilagro img{
+		margin-top: 290px;
+	}
+	.valagro img{
+		margin-top: 300px;
+	}
+	.aboutUs-section{
+		margin: 290px 20px 190px -100px;
+		width: 118%;
+	}
+	
+	 .footer-nav-container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+	 .footer-items{
+        width: 60%;
+    }
+    .footer-bottom{
+        margin-left: 40px;
+    }
+}
+
+
+@media screen and (max-width:414px){
+	
+	 .mobile-nav {
+        width: 100%;
+        right: -100%;
+		margin-left:1%;
+    }
+	.partners-img img{
+		margin-top: 10%;
+		width: 120%;
+	}
+	.partners-title{
+		margin: 0 0 0 -210px;
+	}
+	.partners-border{
+		margin: 0 0 0 110px;
+	}
+	.brand-slider {
+		width: 90%;
+		margin: 1900px 0 0 25px;
+		
+	}
+	.partners{
+		width: 160%;
+		
+	}
+    
+	.adama img{
+		margin-top: 290px;
+	}
+	.quantum img{
+		margin-top: 300px;
+	}
+	.agrolyst img{
+		margin-top: 280px;
+	}
+	.vilagro img{
+		margin-top: 290px;
+	}
+	.valagro img{
+		margin-top: 300px;
+	}
+	.col{
+		width: -10%;
+	}
+	.aboutUs-section{
+		margin: 290px 20px 190px -100px;
+		width: 135%;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.intro .intro-text{
+		font-size: 90px;		
+	}		
+	.service-box{
+		max-width: 100%;
+	}
+    .mobile-nav {
+        width: 100%;
+        right: -100%;
+		margin-left:1%;
+    }
+	.container{
+		margin-top: 920px;
+	}
+	.row{
+		margin-left: 170px;
+	}
+    .partners-img img{
+		margin-top: 10%;
+		width: 120%;
+	}
+	.partners-title{
+		margin: 0 0 0 -210px;
+	}
+	.partners-border{
+		margin: 0 0 0 120px;
+	}
+	.brand-slider {
+		width: 90%;
+		margin: 1900px 0 0 25px;
+		
+	}
+	.partners{
+		width: 180%;
+		margin: 0 0 0 -20px;
+		
+	}
+    
+	.adama img{
+		margin-top: 290px;
+	}
+	.quantum img{
+		margin-top: 300px;
+	}
+	.agrolyst img{
+		margin-top: 280px;
+	}
+	.vilagro img{
+		margin-top: 290px;
+	}
+	.valagro img{
+		margin-top: 300px;
+	}
+	.aboutUs-section{
+		margin: 290px 20px 190px -100px;
+		width: 145%;
+	}
+}
+
+.nav__item a:hover {
+    text-decoration: none;
+}
+.footer-nav__item a:hover{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 360px){
+	.intro .intro-text{
+		font-size: 80px;
+		width: 100%;
+		
+	}
+	.mobile-nav{
+		right: -100%;
+	}
+    .partners-img img{
+		margin-top: 100px;
+		width: 120%;
+	}
+	.partners-title{
+		margin: 0 0 0 -210px;
+	}
+	.partners-border{
+		margin: 0 0 0 105px;
+	}
+	.brand-slider {
+		width: 90%;
+		margin: 1600px 0 0 25px;
+	}
+	
+	.partners{
+		width: 180%;
+		margin: -100px 0 0 -20px;
+	}
+    
+	.adama img{
+		margin-top: 290px;
+	}
+	.quantum img{
+		margin-top: 300px;
+	}
+	.agrolyst img{
+		margin-top: 280px;
+	}
+	.vilagro img{
+		margin-top: 290px;
+	}
+	.valagro img{
+		margin-top: 300px;
+	}
+	
+	.aboutUs-section{
+		margin: 290px 20px 190px -100px;
+		width: 145%;
+	}
+}
+
+
+@media screen and (max-width: 320px){
+	.menu-icon, .nav-wrapper{
+		margin: -5px -40px 0 0;
+	}
+	.intro .intro-text{
+		margin-top: -350px;
+		font-size: 65px;
+		width: 100%;
+	}
+	 .mobile-nav {
+        width: 100%;
+        right: -100%;
+		margin-left:1%;
+    }
+	    .partners-img img{
+		margin-top: 100px;
+		width: 120%;
+	}
+	.partners-title{
+		margin: 0 0 0 -210px;
+	}
+	.partners-border{
+		margin: 0 0 0 70px;
+	}
+	.brand-slider {
+		width: 90%;
+		margin: 1500px 0 0 25px;
+	}
+	
+	.partners{
+		width: 180%;
+		margin: 100px 0 0 -20px;
+	}
+	.partners img{
+		padding: -300px 0 0 -20px;
+	}
+    
+	.adama img{
+		margin-top: 290px;
+	}
+	.quantum img{
+		margin-top: 300px;
+	}
+	.agrolyst img{
+		margin-top: 280px;
+	}
+	.vilagro img{
+		margin-top: 290px;
+	}
+	.valagro img{
+		margin-top: 300px;
+	}
+	.aboutUs-section{
+		margin: 290px 20px 190px -100px;
+		width: 155%;
+	}
+}
