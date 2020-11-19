@@ -1,1 +1,0 @@
-# vacko.com.ua
